@@ -1,1 +1,247 @@
+body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
 
+.navbar{
+	background-color:green;
+	border:0;
+	font-size:14px;
+	letter-spacing:4px;
+}
+#myNavbar li a{
+	color:white;
+}
+#myNavbar li a:hover,#myNavbar li.active a{
+	color:black;
+	background-color:white;
+}
+.navbar .navbar-header .navbar-brand{
+	color:black;
+}
+.navbar .navbar-header .navbar-brand:hover{
+	color:white;
+}
+
+
+.jumbotron{
+	background-color: green;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+}
+
+#myPage .typewriter p{
+	overflow:hidden;
+	margin:0 auto;
+	white-space: nowrap;
+	letter-spacing: .50px;
+	text-align:center;
+	animation:typing 10s steps(80,end);
+}
+@keyframes typing{
+	from{width: 0}
+	to{width: 100%}
+	
+}
+
+.container-fluid{
+	padding:60px 50px;
+}
+#subscribe{
+	margin-top:30px;
+	margin-left:15%;
+	margin-right:15%;
+}
+
+#about i{
+	margin-top:60px;
+	font-size:350px;
+	color:green;
+	text-align:center;
+}
+#about i:hover{
+	transform:rotate(360deg);
+	transition:1.5s;
+}
+
+#services i{
+	font-size:100px;
+	color:green;
+}
+
+#services i:hover{
+	animation: bounce 1s;
+}
+
+@keyframes shake {
+	0% { transform: translate(2px, -2px) rotate(0deg); }
+	10% { transform: translate(-2px, 2px) rotate(1deg); }
+	20% { transform: translate(2px, -2px) rotate(0deg); }
+	30% { transform: translate(-2px, 2px) rotate(1deg); }
+	40% { transform: translate(-2px, -2px) rotate(0deg); }
+	50% { transform: translate(2px, 2px) rotate(1deg); }
+	60% { transform: translate(-2px, -2px) rotate(0deg); }
+	70% { transform: translate(-2px, 2px) rotate(1deg); }
+	80% { transform: translate(2px, -2px) rotate(0deg); }
+	90% { transform: translate(-2px, 2px) rotate(1deg); }
+	100% { transform: translate(2px, -2px) rotate(0deg); }
+}
+@keyframes sortx {
+	0% {transform: rotateX(0deg)}
+	10% {transform: rotateX(10deg)}
+	20% {transform: rotateX(30deg)}
+	30% {transform: rotateX(50deg)}
+	40% {transform: rotateX(70deg)}
+	50% {transform: rotateX(90deg)}
+	60% {transform: rotateX(70deg)}
+	70% {transform: rotateX(50deg)}
+	80% {transform: rotateX(30deg)}
+	90% {transform: rotateX(10deg)}
+	100% {transform: rotateX(0deg)}
+}
+
+@keyframes sorty {
+	0% {transform: rotateY(0deg)}
+	10% {transform: rotateY(10deg)}
+	20% {transform: rotateY(30deg)}
+	30% {transform: rotateY(50deg)}
+	40% {transform: rotateY(70deg)}
+	50% {transform: rotateY(90deg)}
+	60% {transform: rotateY(70deg)}
+	70% {transform: rotateY(50deg)}
+	80% {transform: rotateY(30deg)}
+	90% {transform: rotateY(10deg)}
+	100% {transform: rotateY(0deg)}
+}
+@keyframes bounce{
+	  0% {transform: translateY(10px)}
+	  25% {transform: translateY(-10px)}
+	  50% {transform: translateY(5px)}
+	  75% {transform: translateY(-5px)}
+	  100% {transform: translateY(0px)}
+  }
+
+h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  
+  .panel {
+      border: 1px solid green; 
+      border-radius:0;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  
+  .panel .panel-heading {
+	  border-radius:0;
+      color: #fff;
+      background-color: green;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+  }
+  .panel .panel-heading:hover {
+		animation: sortx 1s;
+  }
+  
+  .panel-footer {
+      background-color: white;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: green;
+      color: #fff;
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid green;
+      background-color: #fff;
+      color: green;
+  }
+  
+  
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(50%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  
+  #contact .contactDetails a{
+	  text-decoration:none;
+  }
+  
+  footer .author{
+	  margin-top:5%;
+	  text-align:left;
+  }
+  footer .author a{
+	  text-decoration:none;
+  }
+  
+  footer .topArrow i{
+	   font-size:30px;
+	   margin:25%;
+	   color:#818181;
+  }
+  footer .topArrow i:hover{
+	   color:white;
+  }
+  footer .topArrow a{
+	  color:#818181;
+	  text-decoration:none;
+  }
+  
+  footer .socialSite a{
+	  padding:20px;
+  }
+  footer .socialSite i{
+	  margin-top:25%;
+	  font-size:30px;
+	  color:#818181;
+  }
+  footer .socialSite i:hover{
+	  color:green;
+  }
