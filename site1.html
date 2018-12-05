@@ -1,1 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="sheet1.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="40">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#myPage"><i class="fa fa-pagelines" style="font-size:18px"></i> Nature</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about"><i class="fa fa-info-circle"></i> ABOUT</a></li>
+					<li><a href="#services"><i class="fa fa-cogs"></i> SERVICES</a></li>
+					<li><a href="#pricing"><i class="fa fa-inr"></i> PRICING</a></li>
+					<li><a href="#contact"><i class="fa fa-phone"></i> CONTACT</a></li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+	
+	<div class="jumbotron text-center typewriter" id="myPage">
+		<h1 style="color:black;">Nature</h1> 
+		<p style="color:black;">We specialize in Nature</p> 
+		<form id="subscribe" action="" method="POST">
+			<div class="input-group" id="subscribe">
+				<input id="mail" type="email" class="form-control" size="50" placeholder="Email Address" required>
+				<div class="input-group-btn">
+					<button type="submit" class="btn btn-success"  style="color:black" onclick="openModal()">Subscribe</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	
+	<div id="about" class="container-fluid">
+		<div class="row">
+			<div class="col-sm-8">
+				<h2>About The Nature</h2><br>
+				<h4>gsafjhgf agsgfas asdjfgsa gfsadkj dsgf gdfsajgf  dsfjga jgfjsg sfdjga djgf jsd sdfgjagf gfjdsaf jsad  sdfjga j safdjgfgds fgja jj sdgfjag sdgfjgfa sfgdjgaj jgsjfdjgjag jsdgjg sgfdjasg jsdgjgafjsgda jsgdjgjds sdgfjsgf sdjgfajsdjd faj</h4><br>
+				<p>gsafjhgf agsgfas asdjfgsa gfsadkj dsgf gdfsajgf  dsfjga jgfjsg sfdjga djgf jsd sdfgjagf gfjdsaf jsad  sdfjga j safdjgfgds fgja jj sdgfjag sdgfjgfa sfgdjgaj jgsjfdjgjag jsdgjg sgfdjasg jsdgjgafjsgda jsgdjgjds sdgfjsgf sdjgfajsdjd faj gsafjhgf agsgfas asdjfgsa gfsadkj dsgf gdfsajgf  dsfjga jgfjsg sfdjga djgf jsd sdfgjagf gfjdsaf jsad  sdfjga j safdjgfgds fgja jj sdgfjag sdgfjgfa sfgdjgaj jgsjfdjgjag jsdgjg sgfdjasg jsdgjgafjsgda jsgdjgjds sdgfjsgf sdjgfajsdjd faj gsafjhgf agsgfas asdjfgsa gfsadkj dsgf gdfsajgf  dsfjga jgfjsg sfdjga djgf jsd sdfgjagf gfjdsaf jsad  sdfjga j safdjgfgds fgja jj sdgfjag sdgfjgfa sfgdjgaj jgsjfdjgjag jsdgjg sgfdjasg jsdgjgafjsgda jsgdjgjds sdgfjsgf sdjgfajsdjd faj...</p>
+				<br><button class="btn btn-default btn-lg">Learn More</button>
+			</div>
+			<div class="col-sm-4">
+				<span><i class="fa fa-exclamation-circle"></i></span>
+			</div>
+		</div>
+	</div>
+	
+	<div id="about" class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+				<span><i class="fa fa-globe"></i></span>
+			</div>
+			<div class="col-sm-8">
+				<h2>Nature's Values</h2><br>
+				<h4>gsafjhgf agsgfas asdjfgsa gfsadkj dsgf gdfsajgf  dsfjga jgfjsg sfdjga djgf jsd sdfgjagf gfjdsaf jsad  sdfjga j safdjgfgds fgja jj sdgfjag sdgfjgfa sfgdjgaj jgsjfdjgjag jsdgjg sgfdjasg jsdgjgafjsgda jsgdjgjds sdgfjsgf sdjgfajsdjd faj</h4><br>
+				<p>gsafjhgf agsgfas asdjfgsa gfsadkj dsgf gdfsajgf  dsfjga jgfjsg sfdjga djgf jsd sdfgjagf gfjdsaf jsad  sdfjga j safdjgfgds fgja jj sdgfjag sdgfjgfa sfgdjgaj jgsjfdjgjag jsdgjg sgfdjasg jsdgjgafjsgda jsgdjgjds sdgfjsgf sdjgfajsdjd faj gsafjhgf agsgfas asdjfgsa gfsadkj dsgf gdfsajgf  dsfjga jgfjsg sfdjga djgf jsd sdfgjagf gfjdsaf jsad  sdfjga j safdjgfgds fgja jj sdgfjag sdgfjgfa sfgdjgaj jgsjfdjgjag jsdgjg sgfdjasg jsdgjgafjsgda jsgdjgjds sdgfjsgf sdjgfajsdjd faj gsafjhgf agsgfas asdjfgsa gfsadkj dsgf gdfsajgf  dsfjga jgfjsg sfdjga djgf jsd sdfgjagf gfjdsaf jsad  sdfjga j safdjgfgds fgja jj sdgfjag sdgfjgfa sfgdjgaj jgsjfdjgjag jsdgjg sgfdjasg jsdgjgafjsgda jsgdjgjds sdgfjsgf sdjgfajsdjd faj...</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="services" class="container-fluid text-center">
+		<h2>SERVICES</h2>
+		<h4>What we offer</h4>
+		<br>
+		<div class="row slideanim">
+			<div class="col-sm-4">
+				<span><i class="fa fa-envelope-o" ></i></span>
+				<h4>SERVICE 1</h4>
+				<p>SERVICE 1</p>
+			</div>
+			<div class="col-sm-4">
+				<span><i class="fa fa-user"></i></span>
+				<h4>SERVICE 2</h4>
+				<p>SERVICE 2</p>
+			</div>
+			<div class="col-sm-4">
+				<span><i class="fa fa-cog"></i></span>
+				<h4>SERVICE 3</h4>
+				<p>SERVICE 3</p>
+			</div>
+		</div>
+		<br><br>
+		<div class="row slideanim">
+			<div class="col-sm-4">
+				<span><i class="fa fa-picture-o"></i></span>
+				<h4>SERVICE 4</h4>
+				<p>SERVICE 4</p>
+			</div>
+			<div class="col-sm-4">
+				<span><i class="fa fa-gift"></i></span>
+				<h4>SERVICE 5</h4>
+				<p>SERVICE 5</p>
+			</div>
+			<div class="col-sm-4">
+				<span><i class="fa fa-sign-out"></i></span>
+				<h4>SERVICE 6</h4>
+				<p>SERVICE 6</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="pricing" class="container-fluid">
+		<div class="text-center">
+			<h2>Pricing</h2>
+			<h4>Choose a payment plan that works for you</h4>
+		</div>
+		<div id="pricing" class="row slideanim">
+			<div class="col-sm-4 col-xs-12">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Basic</h1>
+					</div>
+					<div class="panel-body">
+						<p><strong>20</strong> Gold</p>
+						<p><strong>15</strong> Silver</p>
+						<p><strong>5</strong> Diamond</p>
+						<p><strong>2</strong> Platinum</p>
+						<p><strong>Endless</strong> Cards</p>
+					</div>
+					<div class="panel-footer">
+						<h3>Rs.200</h3>
+						<h4>per month</h4>
+						<button class="btn btn-lg">Sign Up</button>
+					</div>
+				</div> 
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Moderate</h1>
+					</div>
+					<div class="panel-body">
+						<p><strong>20</strong> Gold</p>
+						<p><strong>15</strong> Silver</p>
+						<p><strong>5</strong> Diamond</p>
+						<p><strong>2</strong> Platinum</p>
+						<p><strong>Endless</strong> Cards</p>
+					</div>
+					<div class="panel-footer">
+						<h3>Rs.450</h3>
+						<h4>per month</h4>
+						<button class="btn btn-lg">Sign Up</button>
+					</div>
+				</div> 
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Advance</h1>
+					</div>
+					<div class="panel-body">
+						<p><strong>20</strong> Gold</p>
+						<p><strong>15</strong> Silver</p>
+						<p><strong>5</strong> Diamond</p>
+						<p><strong>2</strong> Platinum</p>
+						<p><strong>Endless</strong> Cards</p>
+					</div>
+					<div class="panel-footer">
+						<h3>Rs.999</h3>
+						<h4>per month</h4>
+						<button class="btn btn-lg">Sign Up</button>
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+	
+	<div id="contact" class="container-fluid bg-grey">
+		<h2 class="text-center">CONTACT</h2>
+		<div class="row">
+			<div class="col-sm-5 contactDetails">
+				<p>Contact us and we'll get back to you within 24 hours.</p>
+				<p><i class="fa fa-map-marker"></i> Hyderabad, India</p>
+				<p><i class="fa fa-phone"></i> +91 9000000000</p>
+				<p><address><i class="fa fa-envelope-o"></i><a href="#"> myemail@gmail.com</a></address></p>
+			</div>
+			<div class="col-sm-7 slideanim">
+			<form class="form" id="myForm" action="" method="POST">
+				<div class="row">
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+					</div>
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+					</div>
+				</div>
+				<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+				<div class="row">
+					<div class="col-sm-12 form-group">
+						<button class="btn btn-default pull-right" type="submit">Send</button>
+					</div>
+				</div>
+			</form>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="container-fluid text-center" style="background-color:black">
+		<div class="col-sm-4 author">
+			<p>Site in Bootstrap Made By Prittis Parmar<br>With the support of<br><a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+		</div>
+		<div class="col-sm-4 topArrow">
+			<a href="#myPage" title="Go to Top">
+				<span><i class="fa fa-arrow-circle-up"></i></span>
+			</a>
+			<p><br>© 2018 <a title="PRITTIS PARMAR PRODUCTION">P<sup>3</sup></a><br>All Rights Reserved.</p>
+		</div>
+		<div class="col-sm-4 socialSite">
+			<a target="_blank" href="https://www.google.co.in" title="Facebook"><i class="fa fa-facebook"></i></i></a>
+			<a target="_blank" href="https://www.google.co.in" title="Instagram"><i class="fa fa-instagram"></i></a>
+			<a target="_blank" href="https://www.google.co.in" title="Twitter"><i class="fa fa-twitter"></i></a>
+			<a target="_blank" href="https://www.google.co.in" title="Google+"><i class="fa fa-google-plus"></i></a>
+		</div>
+	</footer>
+	
+	<div class="modal fade" tabindex="-1" role="dialog" id="myModal1">
+		<div class="modal-dialog modal-sm" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+					<h4 class="modal-title text-center">SUBSCRIBE</h4>
+				</div>
+				<div class="modal-body">
+					<p>Do you want to subscribe?</p>
+				</div>
+				<div class="modal-footer" id="saveMail">
+					<button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+					<button type="submit" class="btn btn-primary">Yes</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
+	
+	
+	<div class="modal fade" tabindex="-1" role="dialog" id="myModal2">
+		<div class="modal-dialog modal-sm" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+					<h4 class="modal-title text-center">CONTACT INFO</h4>
+				</div>
+				<div class="modal-body">
+					<p>Do you want to save the data ?</p>
+				</div>
+				<div class="modal-footer" id="saveData">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="submit" class="btn btn-primary">Save changes</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
+	
+	<script>
+		$(document).ready(function(){
+		// Add smooth scrolling to all links in navbar + footer link
+		$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+		// Prevent default anchor click behavior
+		event.preventDefault();
 
+		// Store hash
+		var hash = this.hash;
+
+		// Using jQuery's animate() method to add smooth page scroll
+		// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+		$('html, body').animate({scrollTop: $(hash).offset().top}, 800, function(){
+		// Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+		});
+		} // End if
+		});
+  
+		$(window).scroll(function() {
+			$(".slideanim").each(function(){
+				var pos = $(this).offset().top;
+
+				var winTop = $(window).scrollTop();
+				if (pos < winTop + 600) {
+					$(this).addClass("slide");
+				}
+			});
+		});
+		})
+	</script>
+	<script>
+		window.onload=function(){
+			window.location.href = '#myPage';
+		}
+		$(document).click(function(e) {
+			if (!$(e.target).is('.panel-body')) {
+				$('.collapse').collapse('hide');	    
+				}
+			});
+		$('#subscribe').on('submit', function(e){
+			$('#myModal1').modal('show');
+				e.preventDefault();
+			});
+		$('#myForm').on('submit', function(e){
+			$('#myModal2').modal('show');
+				e.preventDefault();
+			});
+		$('#saveMail').on('submit', function(e){
+			document.getElementsById("mail").reset;
+			e.preventDefault();
+		});
+		
+			
+	</script>
+</body>
+</html>
